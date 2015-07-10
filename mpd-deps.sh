@@ -9,7 +9,7 @@ apt-get install g++ \
   libsidplay2-dev libsidutils-dev libresid-builder-dev \
   libavcodec-dev libavformat-dev \
   libmp3lame-dev \
-  libsamplerate0-dev libsoxr-dev \
+  libsamplerate0-dev \
   libbz2-dev libcdio-paranoia-dev libiso9660-dev libmms-dev \
   libzzip-dev \
   libcurl4-gnutls-dev libyajl-dev libexpat-dev \
@@ -24,3 +24,4 @@ apt-get install g++ \
   libcppunit-dev xmlto \
   libboost-dev \
   libicu-dev
+#libsoxr-dev
