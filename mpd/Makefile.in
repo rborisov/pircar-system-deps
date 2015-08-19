@@ -13892,8 +13892,8 @@ maintainer-clean-generic:
 	@echo "it deletes files that may require special tools to rebuild."
 	-test -z "$(BUILT_SOURCES)" || rm -f $(BUILT_SOURCES)
 @ENABLE_DOCUMENTATION_FALSE@uninstall-local:
-@ANDROID_FALSE@@ENABLE_DOCUMENTATION_FALSE@clean-local:
 @ENABLE_DOCUMENTATION_FALSE@install-data-local:
+@ANDROID_FALSE@@ENABLE_DOCUMENTATION_FALSE@clean-local:
 clean: clean-am
 
 clean-am: clean-binPROGRAMS clean-generic clean-local \
